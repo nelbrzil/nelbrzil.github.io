@@ -1,4 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-#intro {
-    min-height: 100vh;
+.navbar {
+    background-color: white;
 }
+#intro {
+    background-color: #C6E2E9;
+}
+.navbar-brand {
+    font-family: "Instrument Serif", serif;
+    font-style: italic;
+    font-size: 30px;
+}
+.navbar-nav {
+    font-family: "Public Sans", sans-serif;
+    gap: 5;
+}
+h1 {
+    font-family: "Instrument Serif", serif;
+}
+#intro h1 {
+    font-size: 9rem; 
+}
+#intro h5 {
+    font-size: 1rem;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 200;
+}
+p {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 200;
+}
+
+.button-txt {
+    font-family: "Public Sans", sans-serif;
+}
+
