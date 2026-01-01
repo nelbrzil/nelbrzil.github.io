@@ -6,220 +6,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jenel | Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md px-3 fixed-top border-top border-bottom border-start border-end border-dark border-2">
+    <nav class="navbar navbar-expand-lg bg-light mt-4 py-2 rounded-5 sticky-top px-3 mx-5">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">Jenel</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">nel.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end align-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#intro">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">My Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-center">
+                    <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#skills">Skill</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </div>
             </div>
         </div>
     </nav>
 
-    <!--INTRO-->
-    <div id="intro"
-        class="d-flex align-items-center justify-content-center min-vh-100 border-top border-bottom border-dark border-2">
-        <div class="text-center">
-            <div class="mb-3">
-                <h1>Hi! I'm Jenel.</h1>
-                <h5>An aspiring web designer dedicated to crafting responsive, and user-friendly websites.</h5>
-                <p>I focus on delivering clean designs and seamless user experiences.</p>
-            </div>
-            <a href="#projects" class="btn rounded-pill mt-5 btn-outline-dark"
-                style="font-family: Public Sans, sans-serif; font-weight: 200;">View My Projects</a>
-        </div>
-    </div>
-
-    <!--ABOUT ME-->
-    <div id="about" class="bg-light">
-        <div class="container-lg">
-            <div class="row" style="padding-top: 100px; padding-bottom: 100px;">
-                <div class="col-12 col-md-8 mb-4 mb-md-0">
-                    <div class="text-start">
-                        <h1 style="font-size: 4rem;">ABOUT ME</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates quas libero
-                            reprehenderit voluptatem dignissimos optio minima vero eaque. Itaque fugit ex numquam nulla
-                            quo consequatur voluptates, tempora quaerat odio obcaecati!</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates quas libero
-                            reprehenderit voluptatem dignissimos optio minima vero eaque. Itaque fugit ex numquam nulla
-                            quo consequatur voluptates, tempora quaerat odio obcaecati!</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates quas libero
-                            reprehenderit voluptatem dignissimos optio minima vero eaque. Itaque fugit ex numquam nulla
-                            quo consequatur voluptates, tempora quaerat odio obcaecati!</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 text-center">
-                    <img src="image/pic.jpg" class="rounded-circle img-fluid"
-                        style="width: 300px; height: 300px; object-fit: cover;">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--SKILLS-->
-    <div id="skills" style="background-color: #F1FFC4; padding-top: 100px; padding-bottom: 100px">
+    <div id="intro" class="py-5  mb-5" style="margin-top: 120px;">
         <div class="container">
-            <h1 class="text-center mb-4" style="font-size: 4rem;">WHAT I CAN DO</h1>
             <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm text-center p-3">
-                        <i class="bi bi-code-slash display-3 mb-2"></i>
-                        <h5 class="card-title skill-txt">Web Development</h5>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quae iste
-                            quos quas. Ducimus praesentium magnam voluptatem nobis eius ab?</p>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm text-center p-3">
-                        <i class="bi bi-palette display-3 mb-2"></i>
-                        <h5 class="card-title">Design & Multimedia</h5>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
-                            dignissimos repudiandae omnis, fugit nemo adipisci nesciunt quo explicabo molestias modi!
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm text-center p-3">
-                        <i class="bi bi-people display-3 mb-2"></i>
-                        <h5 class="card-title">Soft Skills</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, doloremque!
-                            Eum quisquam sapiente molestiae nesciunt molestias eius dolore nostrum dolorum!F</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--MY PROJECTS-->
-    <div id="projects" class="mt-5 pt-4">
-        <div class="container-lg">
-            <div class="text-center mb-5">
-                <h1 class="mb-4" style="font-size: 4rem;">MY PROJECTS</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
-                    <div class="card h-100" style="background-color: #A7BED3;">
-                        <img src="image/project1.png" class="card-img-top img-fluid" alt="project1">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                            <a href="https://nelbrzil.github.io/Samsung-Galaxy-Zfold7/" target="_blank"
-                                class="btn btn-outline-dark mt-2 rounded-pill" style="background-color: #F1FFC4;">
-                                View Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
-                    <div class="card h-100" style="background-color: #FFCAAF;">
-                        <img src="image/project2.png" class="card-img-top img-fluid" alt="project2">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                            <a href="https://nelbrzil.github.io/Seoul-Korea/"
-                                class="btn btn-outline-dark mt-2 rounded-pill" style="background-color: #F1FFC4;">
-                                View Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
-                    <div class="card h-100" style="background-color: #C6E2E9;">
-                        <img src="image/project3.png" class="card-img-top img-fluid" alt="project3">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 3</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                            <a href="https://nelbrzil.github.io/Van-Gogh-Gallery/"
-                                class="btn btn-outline-dark mt-2 rounded-pill" style="background-color: #F1FFC4;">
-                                View Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
-                    <div class="card h-100" style="background-color: #C6E2E9;">
-                        <img src="image/project4.png" class="card-img-top img-fluid" alt="project4">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 4</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                            <a href="https://nelbrzil.github.io/API/" class="btn btn-outline-dark mt-2 rounded-pill"
-                                style="background-color: #F1FFC4;">
-                                View Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--CONTACT-->
-    <div id="contact" class="bg-light py-5 mt-5">
-        <div class="container-lg">
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <h1 style="font-size: 4rem;">Get in Touch</h1>
-                    <p class="text-muted">
-                        Feel free to reach out for collaborations or just a friendly hello.
+                <div class="col-lg-6 col-md-8 text-start">
+                    <h1>Hello, I'm Jenel!</h1>
+                    <p class="mb-4">
+                        I'm a 3rd year college student at Polytechnic University of the Philippines.
+                        I am aspiring to be a web designer. This is my portfolio, where I share and write my personal
+                        projects.
                     </p>
-                </div>
-                <div class="col-md-4 mb-4 text-center">
-                    <h5>Contact</h5>
-                    <p>Email: jenelangelabrazil@gmail.com</p>
-                    <p>Phone: 0912 2345 6789</p>
-                    <p>Address: Philippines</p>
-                </div>
-                <div class="col-md-4 mb-4 text-center">
-                    <h5>Connect</h5>
-                    <a href="#" class="d-block text-dark mb-2">
-                        <i class="bi bi-facebook me-2"></i> Facebook
-                    </a>
-                    <a href="#" class="d-block text-dark mb-2">
-                        <i class="bi bi-github me-2"></i> GitHub
-                    </a>
-                    <a href="#" class="d-block text-dark">
-                        <i class="bi bi-instagram me-2"></i> Instagram
-                    </a>
+                    <a href="#projects" class="btn btn-color rounded-pill text-dark">View My Works</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <div id="about" class="py-5" style="margin-top: 150px;">
+        <div class="container">
+            <h1 class="text-center mb-4">About Me</h1>
+            <div class="card mt-4 px-4 py-4 rounded-4">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga quo obcaecati esse. Tempora
+                    autem officiis doloribus commodi laborum adipisci, tenetur maiores suscipit pariatur harum
+                    doloremque! Quo aspernatur, ratione debitis est sit iste nisi illo ipsum iure eligendi
+                    ducimus distinctio ad molestias repudiandae aperiam quos iusto, unde rerum perferendis at
+                    id?</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="py-5" style="margin-top: 100px;">
+        <div class="container">
+            <h1 class="text-center mb-5">Skills</h1>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card text-center p-4 shadow-sm h-100 rounded-4">
+                        <div class="mb-3">
+                            <i class="fa-brands fa-html5" style="font-size: 2rem;"></i>
+                        </div>
+                        <h5 class="card-title">HTML</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card text-center p-4 shadow-sm h-100 rounded-4">
+                        <div class="mb-3">
+                            <i class="fa-brands fa-css3-alt" style="font-size: 2rem;"></i>
+                        </div>
+                        <h5 class="card-title">CSS</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card text-center p-4 shadow-sm h-100 rounded-4">
+                        <div class="mb-3">
+                            <i class="fa-brands fa-figma" style="font-size: 2rem;"></i>
+                        </div>
+                        <h5 class="card-title">Figma</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card text-center p-4 shadow-sm h-100 rounded-4">
+                        <div class="mb-3">
+                            <i class="fa-solid fa-code-branch" style="font-size: 2rem;"></i>
+                        </div>
+                        <h5 class="card-title">Git</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="py-5" style="margin-top: 100px;">
+        <div class="container">
+            <h1 class="text-center mb-5">My Works</h1>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 text-start">
+                    <img src="image/project1.png" alt="Project 1" class="img-fluid rounded mb-3">
+                    <h3>Project 1</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="https://nelbrzil.github.io/Samsung-Galaxy-Zfold7/"
+                        class="btn btn-sm rounded-pill btn-color">View Site</a>
+                </div>
+                <div class="col-md-6 col-lg-3 text-start">
+                    <img src="image/project2.png" alt="Project 2" class="img-fluid rounded mb-3">
+                    <h3>Project 2</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="https://nelbrzil.github.io/Seoul-Korea/" class="btn btn-sm rounded-pill btn-color">View
+                        Site</a>
+                </div>
+                <div class="col-md-6 col-lg-3 text-start">
+                    <img src="image/project3.png" alt="Project 3" class="img-fluid rounded mb-3">
+                    <h3>Project 3</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="https://nelbrzil.github.io/Van-Gogh-Gallery/"
+                        class="btn btn-color btn-sm rounded-pill">View Site</a>
+                </div>
+                <div class="col-md-6 col-lg-3 text-start">
+                    <img src="image/project4.png" alt="Project 4" class="img-fluid rounded mb-3">
+                    <h3>Project 4</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="https://nelbrzil.github.io/API/" class="btn btn-color btn-sm rounded-pill">View Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="py-5" style="margin-top: 100px;">
+        <div class="container">
+            <h1 class="text-center mb-5">Get In Touch With Me</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card p-4 shadow-sm rounded-4">
+                        <div class="row">
+                            <div class="col-md-6 mb-3 mb-md-0 px-3">
+                                <h5>Contact Info</h5>
+                                <p>Email: <a href="mailto:jenelangelabrazil@gmail.com">jenelangelabrazil@gmail.com</a>
+                                </p>
+                                <p>Phone: <a href="tel:09122345678">0912 234 5678</a></p>
+                                <p>Address: Manila, Philippines</p>
+                            </div>
+                            <div class="col-md-6 text-md-start px-3">
+                                <h5>More Ways to Connect</h5>
+                                <p>Follow me on social media:</p>
+                                <div class="d-flex gap-3">
+                                    <a href="#" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-light text-dark py-4">
+        <div class="container text-center">
+            <p>&copy; 2026 Jenel Angela. All Rights Reserved.</p>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>

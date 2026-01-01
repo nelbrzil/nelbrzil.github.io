@@ -1,35 +1,36 @@
-.navbar {
-    background-color: white;
+html, body {
+  margin: 0;
+  padding: 0;
 }
-#intro {
-    background-color: #C6E2E9;
+
+body {
+  background-color: #edf2fb; /* palitan mo kulay */
+}
+
+.btn-color {
+    background-color: #abc4ff;
+}
+
+.btn-color:hover {
+    background-color: #52b2cf;
+}
+
+h1 {
+    font-family:"Inter Tight", sans-serif;
+    font-size: 4rem;
+}
+
+p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
 }
 .navbar-brand {
-    font-family: "Instrument Serif", serif;
-    font-style: italic;
-    font-size: 30px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
 }
 .navbar-nav {
-    font-family: "Public Sans", sans-serif;
-    gap: 5;
-}
-h1 {
-    font-family: "Instrument Serif", serif;
-}
-#intro h1 {
-    font-size: 9rem; 
-}
-#intro h5 {
-    font-size: 1rem;
-    font-family: "Public Sans", sans-serif;
-    font-weight: 200;
-}
-p {
-    font-family: "Public Sans", sans-serif;
-    font-weight: 200;
+    font-family: "DM Sans", sans-serif;
 }
 
-.button-txt {
-    font-family: "Public Sans", sans-serif;
-}
 
+     
